@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".FingerPrintActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/txtstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/manit_attendance"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnscan"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="scanFingerPrintScan"
+        android:text="@string/scan"
+        android:textColor="#32AAA6">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/imgstatus"
+        android:layout_width="128dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/image1">
+
+    </ImageView>
+
+</LinearLayout>
